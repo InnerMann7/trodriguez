@@ -51,6 +51,7 @@
 
 #define HEN_REPO_URL "http://917hu8k0n73n7.psp2.dev/hen/"
 #define VDEP_VPK_FNAME "vdep.vpk"
+#define AUTP_VPK_FNAME "autp.vpk"
 #define TAIHEN_K_FNAME "taihen.skprx"
 #define TAIHEN_C_FNAME "config.txt" // default config.txt
 #define HENKAKU_K_FNAME "henkaku.skprx"
@@ -66,11 +67,12 @@ enum E_MENU_OPTIONS {
     MENU_EXIT = 0,
     MENU_INSTALL_HENKEK,
     MENU_INSTALL_VDEP,
+    MENU_INSTALL_AUTP,
     MENU_REPLACE_NEAR,
     MENU_RESET_TAICFG,
     MENU_EXIT_W_SD2VITA
 };
-const char* menu_items[OPTION_COUNT] = { "Exit", "Install henkaku", "Install VitaDeploy", "Replace NEAR with VitaDeploy", "Reset taihen config.txt", "Exit and mount sd2vita to ux0" };
+const char* menu_items[OPTION_COUNT] = { "Exit", "Install henkaku", "Install VitaDeploy", "TECNORODRIGUEZ PRUEBA" "Replace NEAR with VitaDeploy", "Reset taihen config.txt", "Exit and mount sd2vita to ux0" };
 
 int __attribute__((naked, noinline)) call_syscall(int a1, int a2, int a3, int num) {
     __asm__(
