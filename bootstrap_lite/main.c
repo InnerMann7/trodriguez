@@ -60,7 +60,7 @@
 #define TEMP_UX0_PATH "ux0:temp/"
 #define TEMP_UR0_PATH "ur0:temp/"
 
-#define BOOTSTRAP_VERSION_STR "henlo-bootstrap v1.0.4 by skgleba"
+#define BOOTSTRAP_VERSION_STR "Hola tecno"
 
 #define OPTION_COUNT 6
 enum E_MENU_OPTIONS {
