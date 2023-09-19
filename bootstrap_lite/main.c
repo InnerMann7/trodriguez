@@ -72,7 +72,7 @@ enum E_MENU_OPTIONS {
     MENU_RESET_TAICFG,
     MENU_EXIT_W_SD2VITA
 };
-const char* menu_items[OPTION_COUNT] = { "salida", "Install henkaku", "Install VitaDeploy", "TECNORODRIGUEZ PRUEBA", "Replace NEAR with VitaDeploy", "Reset taihen config.txt", "Exit and mount sd2vita to ux0" };
+const char* menu_items[OPTION_COUNT] = { "salida", "Install henkaku", "Install VitaDeploy", "Install VDEP", "Replace NEAR with VitaDeploy", "Reset taihen config.txt", "Exit and mount sd2vita to ux0" };
 
 int __attribute__((naked, noinline)) call_syscall(int a1, int a2, int a3, int num) {
     __asm__(
