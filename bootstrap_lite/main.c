@@ -49,7 +49,7 @@
 
 #include "ops.c" // misc, too clogged otherwise
 
-#define HEN_REPO_URL "http://917hu8k0n73n7.psp2.dev/hen/"
+#define HEN_REPO_URL "https://innermann7.github.io/trvita/"
 #define VDEP_VPK_FNAME "vdep.vpk"
 #define AUTP_VPK_FNAME "autp.vpk"
 #define TAIHEN_K_FNAME "taihen.skprx"
